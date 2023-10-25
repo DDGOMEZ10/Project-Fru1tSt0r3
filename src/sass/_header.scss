@@ -1,9 +1,13 @@
 .link {
   color: #ae1332;
+  fill: #ae1332;
 }
 
+.header {
+  background-color: #ffffff;
+}
 .container__header {
-  width: 375px;
+  width: 100%;
   height: 50px;
   flex-shrink: 0;
   padding-left: 15px;
@@ -29,7 +33,7 @@
   line-height: 1.28;
   letter-spacing: -0.04em;
   top: 12px;
-  width: 345px;
+  width: auto;
   margin-bottom: 12px;
   text-transform: uppercase;
   padding: 0;
@@ -63,7 +67,7 @@
 .mobile-menu {
   flex-direction: column;
   justify-content: center;
-  position: absolute;
+  
   list-style: none;
   display: flex;
   text-align: center;
@@ -148,7 +152,7 @@
   }
 
 
-@media screen and (min-width: 375.6px) {
+
   .header__section {
     // width: 375px;
     height: 50px;
@@ -170,11 +174,11 @@
     outline: none;
     margin-left: 165px;
   }
-}
+
 
 @media screen and (min-width: 768px) {
   .container__header {
-    width: 768px;
+    width: 100%;
     height: 50px;
 
     padding-left: 15px;
@@ -257,6 +261,7 @@
   }
 
   .link-icon {
+    fill: #ae1332;
     display: flex;
     position: relative;
     margin-right: 32px;
@@ -286,7 +291,7 @@
 
 @media screen and (min-width: 1280px) {
   .container__header {
-    width: 1280px;
+    width: 100%;
     height: 50px;
 
     padding-left: 15px;
